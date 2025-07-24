@@ -1,0 +1,32 @@
+# Ignorar ambientes virtuais
+API/venv310/
+
+# Ignorar arquivos Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar arquivos ocultos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar logs
+*.log
+
+# Ignorar arquivos temporários de edição
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignorar diretórios de build
+build/
+dist/
+*.egg-info/
+
+# Ignorar arquivos gerados por TensorFlow
+*.pb
+*.ckpt
+*.tflite
+*.tensorboard-info/
